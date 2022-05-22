@@ -12,7 +12,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -25,12 +25,12 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - r-base >=3.5,<4
+    - r-base
     - r-value >=1.4.23
     - r-abind
     - r-transformer >=1.4.7
   run:
-    - r-base >=3.5,<4
+    - r-base
     - r-value >=1.4.23
     - r-abind
     - r-transformer >=1.4.7
