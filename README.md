@@ -1,11 +1,11 @@
-About r-climate4r.value
-=======================
+About r-climate4r.value-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-climate4r.value-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SantanderMetGroup/climate4R
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-climate4r.value-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wrapper of package VALUE to compute several indices and perform climate data validation using the tools developed in the COST action VALUE <http://www.value-cost.eu/>.
 
